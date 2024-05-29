@@ -1,9 +1,9 @@
 import './App.css';
-import { Persons } from './components/Persons';
+import { Persons } from './components/Persons'
 import { useState } from 'react';
 
-
 function App() {
+
   const [ persons, setPersons ] = useState([
     {
       id: 1,
@@ -24,6 +24,7 @@ function App() {
       img: "https://bootdey.com/img/Content/avatar/avatar8.png",
     },
   ]);
+
   return (
     <div className='App'>
       <div className='container'>
